@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel serve src/index.html",
-    "build": "parcel build src/index.html -d build --public-url /fs-disc/",
+    "build": "parcel build src/index.html -d build --public-url /fs-disc",
     "deploy": "gh-pages -d build",
     "clean": "rm -rf dist build .cahe",
     "help": "echo Ayuda"
